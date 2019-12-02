@@ -1,5 +1,5 @@
 # Path to your oh-my-zsh installation.
-export ZSH=/Users/Fabian/.oh-my-zsh
+export ZSH=/Users/$USER/.oh-my-zsh
 
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
@@ -7,7 +7,7 @@ export ZSH=/Users/Fabian/.oh-my-zsh
 # time that oh-my-zsh is loaded.
 ZSH_THEME="agnoster"
 #ZSH_THEME="powerlevel9k/powerlevel9k"
-DEFAULT_USER='Fabian'
+DEFAULT_USER=$USER
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"

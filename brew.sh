@@ -1,14 +1,12 @@
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-brew tap caskroom/cask
-brew tap caskroom/versions
 
 brew cask install adoptopenjdk/openjdk/adoptopenjdk8
 brew cask install adoptopenjdk/openjdk/adoptopenjdk9
 brew cask install anaconda
-brew cask install dockertoolbox
 brew cask install google-cloud-sdk
 brew cask install osxfuse
 brew cask install telegram
+brew cask install spotify
 
 brew install perl
 brew install wget
@@ -33,6 +31,9 @@ brew install watch
 brew install watchman
 brew install go
 
+brew install docker
+brew cask install docker-toolbox
+
 brew install maven
 brew install gradle
 brew install sbt
@@ -42,7 +43,6 @@ brew install apache-spark
 brew install zookeeper
 brew install kafka
 brew install presto
-brew install prestodb
 brew install kafkacat
 brew install kotlin
 
@@ -65,7 +65,6 @@ brew install kubernetes-helm
 brew install helm
 brew install minikube
 
-brew install mongodb
 brew install sqlite
 brew install mysql
 brew install postgresql
