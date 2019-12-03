@@ -59,6 +59,7 @@ brew install pyenv
 brew install pipenv
 brew install flake8
 brew install neovim
+ln -s /usr/local/bin/nvim /usr/local/bin/vim
 
 brew install kubernetes-cli
 brew install kubernetes-helm
