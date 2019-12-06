@@ -142,3 +142,5 @@ export GOPATH=~/go
 export PATH=$GOPATH/bin:$PATH
 
 export EDITOR="nvim"
+
+alias gd='git diff HEAD^ HEAD'

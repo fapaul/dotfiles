@@ -11,6 +11,9 @@ brew cask install spotify
 brew install perl
 brew install wget
 brew install curl
+brew install gnu-sed
+ln -s /usr/local/bin/gsed /usr/local/bin/sed
+brew install xmlstarlet
 brew install findutils
 brew install coreutils
 brew install moreutils
