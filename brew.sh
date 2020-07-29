@@ -2,6 +2,7 @@ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/
 
 brew cask install adoptopenjdk/openjdk/adoptopenjdk8
 brew cask install adoptopenjdk/openjdk/adoptopenjdk9
+brew cask install adoptopenjdk/openjdk/adoptopenjdk11
 brew cask install anaconda
 brew cask install google-cloud-sdk
 brew cask install osxfuse
@@ -32,6 +33,7 @@ brew install tmux
 brew install tree
 brew install watch
 brew install watchman
+brew install gpg
 brew install go
 
 brew install docker
@@ -76,6 +78,8 @@ brew install protobuf
 
 brew install rustup-init
 rustup-init
+
+brew install shellcheck
 
 brew install zsh
 brew install zsh-completions
